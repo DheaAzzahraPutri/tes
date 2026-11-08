@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ | Hennaku.tng</title>
+    <link rel="stylesheet" href="UTS.css">
+    <link rel="icon" type="image/x-icon" href="Images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<!-- HEADER -->
+<header>
+    <div class="identitas">
+        <img src="Images/logo.png" alt="Logo Hennaku">
+        <div class="nama-brand">
+            <h1>HENNAKU.TNG</h1>
+            <p>Henna Lukis Tanpa Cetakan | Est. 2019</p>
+        </div>
+    </div>
+
+<!-- NAVIGASI -->
+    <nav class="navigasi">
+        <a href="UTS.html">Home</a>
+
+        <div class="menu-about">
+            <button onclick="tampilDropdown()">About ▾</button>
+
+            <div id="dropdown-about" class="isi-dropdown">
+                <a href="Profil.html">Profil</a>
+                <a href="Visi&Misi.html">Visi dan Misi</a>
+                <a href="Tujuan.html">Tujuan</a>
+                <a href="Sertifikat.html">Sertifikat</a>
+            </div>
+        </div>
+        <a href="Gallery.html">Galeri</a>
+        <div class="menu-artikel">
+            <button onclick="tampilArtikel()">Artikel ▾</button>
+            <div id="dropdown-artikel" class="isi-dropdown">
+                <a href="Artikel1.html">Artikel 1</a>
+                <a href="Artikel2.html">Artikel 2</a>
+                <a href="Artikel3.html">Artikel 3</a>
+            </div>
+        </div>
+        <a href="FAQ.html">FAQ</a>
+        <a href="Kontak.html">Kontak</a>
+        <a href="Booking.html">Booking</a>
+    </nav>
+</header>
+
+<!-- PENGUMUMAN -->
+<form onsubmit="kirimBooking(event)">
+        
+    <section class="pengumuman">
+        <p>Selamat datang di Hennaku.tng! Temukan keindahan dalam setiap detail.</p>
+    </section>
+
+<!-- BOOKING -->
+<div class="profil-kami">
+    <section class="tentang-kami">
+        <h2>Booking Henna</h2>
+        <p>Silakan lengkapi formulir booking berikut dengan data yang benar dan sesuai kebutuhan acara. Pastikan seluruh informasi sudah diperiksa sebelum mengirimkan formulir.</p>
+
+    <form>
+    <h3>Informasi Paket dan Calon Pengantin</h3>
+
+    <label for="paket">Pilihan Paket Henna (Wajib Diisi)</label>
+    <input type="text" id="paket" name="paket"
+    placeholder="Masukkan nama paket henna yang dipilih" required>
+
+    <label for="kulit">Tipe Kulit</label>
+    <select id="kulit" name="kulit" required>
+        <option value="">Pilih tipe kulit</option>
+        <option value="Normal">Normal</option>
+        <option value="Kering">Kering</option>
+        <option value="Berminyak">Berminyak</option>
+        <option value="Kombinasi">Kombinasi</option>
+        <option value="Sensitif">Sensitif</option>
+        <option value="Tidak Tahu">Tidak Tahu</option>
+    </select>
+
+    <label for="cpw">Nama Calon Pengantin Wanita</label>
+    <input type="text" id="cpw" name="cpw"
+    placeholder="Nama lengkap atau nama panggilan" required>
+
+    <label for="cpp">Nama Calon Pengantin Pria</label>
+    <input type="text" id="cpp" name="cpp"
+    placeholder="Nama lengkap atau nama panggilan" required>
+
+    <label for="instagram">Username Instagram CPW</label>
+    <input type="text" id="instagram" name="instagram"
+    placeholder="Contoh: @username">
+
+    <hr>
+
+    <h3>Detail Acara</h3>
+
+    <label for="tanggal">Tanggal Acara Akad/Resepsi</label>
+    <input type="date" id="tanggal" name="tanggal" required>
+
+    <label for="jam">Jam Akad/Resepsi</label>
+    <input type="time" id="jam" name="jam" required>
+
+    <label for="warna-kuku">Request Warna Kuku Palsu</label>
+    <input type="text" id="warna-kuku" name="warna-kuku"
+    placeholder="Tuliskan warna yang diinginkan">
+
+    <label for="warna-baju">Warna Baju yang Dipakai Saat Akad/Resepsi</label>
+    <textarea id="warna-baju" name="warna-baju"
+    placeholder="Contoh: Adat - Maroon, Nasional - Putih"></textarea>
+
+    <hr>
+
+    <h3>Lokasi Acara dan Kontak</h3>
+
+    <label for="alamat">Alamat Lokasi Acara/Lokasi Pemasangan Henna (Wajib)</label>
+    <textarea id="alamat" name="alamat"
+    placeholder="Tuliskan alamat lengkap lokasi pemasangan henna"
+    required></textarea>
+
+    <label for="shareloc">Shareloc Lokasi Acara/Lokasi Pengerjaan Henna (Wajib)</label>
+    <input type="url" id="shareloc" name="shareloc"
+    placeholder="Tempelkan link Google Maps atau lokasi"
+    required>
+
+    <label for="darurat">Nomor Darurat</label>
+    <input type="tel" id="darurat" name="darurat"
+    placeholder="Masukkan nomor telepon yang dapat dihubungi"
+    required>
+
+    <hr>
+
+    <h3>Akun Instagram Vendor Wedding</h3>
+
+    <label for="makeup">Makeup Bride</label>
+    <input type="text" id="makeup" name="makeup"
+    placeholder="Username Instagram MUA">
+
+    <label for="fotografer">Fotografer</label>
+    <input type="text" id="fotografer" name="fotografer"
+    placeholder="Username Instagram fotografer">
+
+    <label for="wo">Wedding Organizer (WO)</label>
+    <input type="text" id="wo" name="wo"
+    placeholder="Username Instagram WO">
+
+    <label for="dekorasi">Dekorasi</label>
+    <input type="text" id="dekorasi" name="dekorasi"
+    placeholder="Username Instagram dekorasi">
+
+    <p><b>Perhatian!</b><br> Mohon pastikan shareloc yang diberikan benar dan akurat. Lokasi acara harus sesuai dengan lokasi pengerjaan henna agar proses persiapan dan kedatangan berjalan lancar.</p>
+
+    <button type="submit">Kirim Formulir Booking</button>
+    </form>
+    </section>
+</div>  
+
+<!-- FOOTER -->
+    <footer>
+        <div class="isi-footer">
+
+        <!-- INFORMASI BRAND -->
+        <div class="informasi-footer">
+            <h3>✧ HENNAKU.TNG | Henna Art, Beauty in Every Detail.</h3>
+            <p>Beauty in Every Detail.</p>
+        </div>
+
+        <!-- LOGO MEDIA SOSIAL DAN LOKASI -->
+        <div class="tautan-footer">
+
+            <a href="https://www.instagram.com/hennaku.tng/" target="_blank" title="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="https://wa.me/message/HOKY4DCT42MJF1" target="_blank" title="WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+            <a href="https://www.google.com/maps/search/?api=1&query=Gg.+Beringin+No.11+Ciledug+Tangerang" target="_blank" title="Lokasi">
+                <i class="fa-solid fa-location-dot"></i>
+            </a>
+
+            <p>Gg. Beringin No.11, Ciledug, Kota Tangerang, Banten 15151.</p>
+
+        </div>
+    </div>
+
+        <div class="bagian-copyright">
+            <p>© 2026 Hennaku.tng. All Rights Reserved.</p>
+        </div>
+    </footer>
+<script src="UTS.js"></script>
+</body>
+</html>

@@ -1,0 +1,908 @@
+/* ================================= PENGATURAN SELURUH HALAMAN ================================= */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAF5F0;
+    color: #302126;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ================================= HEADER ================================= */
+header {
+    background-color: #542632;
+    padding: 15px 30px;
+    white-space: nowrap;
+}
+
+/* Logo dan nama brand */
+.identitas {
+    display: inline-block;
+    width: 35%;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.identitas img {
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.nama-brand {
+    display: inline-block;
+    vertical-align: middle;
+    white-space: normal;
+}
+
+.nama-brand h1 {
+    color: #FAF5F0;
+    font-size: 22px;
+    margin: 0;
+}
+
+.nama-brand p {
+    color: #E8D5CD;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin: 8px 0 0;
+}
+
+/* ================================= NAVIGASI ATAS ================================= */
+.navigasi {
+    display: inline-block;
+    width: 64%;
+    text-align: right;
+    vertical-align: middle;
+    white-space: normal;
+}
+
+.navigasi a {
+    display: inline-block;
+    color: #FAF5F0;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.navigasi a:hover,
+.navigasi summary:hover {
+    color: #C69B98;
+}
+
+/* ================================= PENGUMUMAN ================================= */
+.pengumuman {
+    background-color: #C69B98;
+    padding: 5px;
+    text-align: center;
+}
+
+.pengumuman p {
+    color: white;
+    font-size: 13px;
+}
+
+/* ================================= BODY DAN SIDEBAR ================================= */
+.tata-letak {
+    padding: 20px;
+    overflow: hidden;
+}
+
+/* Konten utama */
+main {
+    display: inline-block;
+    width: 67%;
+    vertical-align: top;
+    padding: 0 15px;
+}
+
+.sidebar {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    background-color: #E8D5CD;
+    padding: 20px;
+    margin-left: 1%;
+}
+
+/* JAM OPERASIONAL */
+.jam-operasional {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 25px;
+    background-color: #E8D5CD;
+    border-left: 4px solid #873F4D;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.jam-operasional h3 {
+    color: #542632;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.jam-operasional p {
+    margin: 12px 0;
+    color: #302126;
+    font-size: 13px;
+}
+
+.jam-operasional span {
+    display: block;
+    margin-top: 5px;
+    color: #873F4D;
+    font-weight: bold;
+}
+
+/* AVAILABLE BOOKING */
+.available-booking {
+    background-color: #FAF5F0;
+    border: 1px solid #C69B98;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.available-booking h3 {
+    color: #542632;
+    font-family: Georgia, serif;
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.available-booking p {
+    color: #66575A;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.available-booking a {
+    display: inline-block;
+    background-color: #542632;
+    color: #FAF5F0;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.available-booking a:hover {
+    background-color: #873F4D;
+}
+
+/* ================================= PEMBUKAAN ================================= */
+.pembukaan {
+    background-color: #FAF5F0;
+    padding: 0 10px;
+    margin: 0 0 30px;
+    border: none;
+    overflow: hidden;
+}
+
+/* Bagian teks */
+.teks-pembuka {
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+    padding: 15px;
+}
+
+.label-pembuka {
+    color: #873F4D;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-bottom: 25px;
+}
+
+.teks-pembuka h2 {
+    color: #542632;
+    font-size: 48px;
+    line-height: 1.2;
+    margin: 0 0 25px;
+}
+
+.teks-pembuka h2 span {
+    display: block;
+    color: #C69B98;
+    font-style: italic;
+}
+
+.deskripsi-pembuka {
+    color: #66575A;
+    font-size: 16px;
+    line-height: 1.9;
+    margin-bottom: 25px;
+}
+
+.kalimat-pendek {
+    color: #873F4D;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.teks-pembuka a {
+    display: inline-block;
+    background-color: #542632;
+    color: #FAF5F0;
+    padding: 13px 22px;
+    text-decoration: none;
+}
+
+.teks-pembuka a:hover {
+    background-color: #873F4D;
+}
+
+
+/* Bagian gambar */
+.gambar-pembuka {
+    display: inline-block;
+    width: 48%;
+    vertical-align: middle;
+    padding: 8px;
+    border: 2px solid #E8D5CD;
+}
+
+.gambar-pembuka img {
+    display: block;
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+    margin: 0;
+}
+
+/* ================================= PRICE LIST ================================= */
+.price-list {
+    width: 100%;
+    padding: 35px 4%;
+    margin: 0 auto 30px;
+    background-color: #FAF5F0;
+}
+
+.judul-price {
+    width: 100%;
+    border-bottom: 1px solid #E8D5CD;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+
+.judul-price h2 {
+    color: #542632;
+    font-family: Georgia, serif;
+    font-size: 32px;
+    margin: 0;
+}
+
+.judul-price p {
+    color: #66575A;
+    font-size: 14px;
+}
+
+.daftar-harga {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.kartu-harga {
+    display: inline-block;
+    width: 23%;
+    background-color: white;
+    border: 1px solid #E8D5CD;
+    padding: 20px;
+    margin: 15px 0.8% 25px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.kartu-harga img {
+    width: 100%;
+    height: 200px;
+    object-fit:contain;
+    margin: 0;
+}
+
+.kategori {
+    color: #873F4D;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 25px;
+}
+
+.kartu-harga h3 {
+    color: #542632;
+    font-family: Georgia, serif;
+    font-size: 24px;
+}
+
+.deskripsi-harga {
+    color: #66575A;
+    font-size: 14px;
+    line-height: 1.7;
+    min-height: 75px;
+}
+
+.bagian-harga {
+    border-top: 1px solid #E8D5CD;
+    padding-top: 15px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.bagian-harga p {
+    display: inline-block;
+    color: #302126;
+    font-size: 17px;
+    font-weight: bold;
+    width: 60%;
+    margin: 0;
+}
+
+.bagian-harga a {
+    display: inline-block;
+    background-color: #542632;
+    color: #FAF5F0;
+    padding: 10px 18px;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.bagian-harga a:hover {
+    background-color: #873F4D;
+}
+
+.label-koleksi {
+    display: block;
+    width: 100%;
+    color: #873F4D;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-align: left;
+    padding-bottom: 15px;
+    margin: 35px 0 25px;
+}
+
+/* ================================= FASILITAS PAKET ================================= */
+.fasilitas-paket {
+    display: block;
+    width: 96%;
+    background-color: #E8D5CD;
+    border: 1px solid #C69B98;
+    padding: 25px 35px;
+    margin: 35px auto;
+    text-align: left;
+}
+
+.fasilitas-paket h3 {
+    color: #542632;
+    font-family: Georgia, serif;
+    font-size: 24px;
+    margin-top: 0;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #C69B98;
+}
+
+.fasilitas-paket ul {
+    padding-left: 25px;
+    margin-bottom: 0;
+}
+
+.fasilitas-paket li {
+    color: #302126;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.pembatas-paket {
+    width: 100%;
+    border-top: 1px solid #E8D5CD;
+    margin: 50px auto;
+}
+
+/* ================================= FOOTER ================================= */
+footer {
+    background-color: #542632;
+    color: #FAF5F0;
+    padding: 40px 45px 20px;
+}
+
+/* Bagian isi footer */
+.isi-footer {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+/* Informasi sebelah kiri */
+.informasi-footer {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}
+
+.informasi-footer h3 {
+    color: #FAF5F0;
+    font-size: 20px;
+    margin: 0 0 15px;
+}
+
+.informasi-footer p {
+    color: #E8D5CD;
+    font-size: 15px;
+}
+
+/* Logo Instagram, WhatsApp, dan lokasi */
+.tautan-footer {
+    display: inline-block;
+    width: 48%;
+    text-align: right;
+    vertical-align: top;
+}
+
+.tautan-footer a {
+    display: inline-block;
+    color: #FAF5F0;
+    font-size: 25px;
+    margin-left: 18px;
+    text-decoration: none;
+}
+
+.tautan-footer a:hover {
+    color: #C69B98;
+}
+
+.tautan-footer p {
+    color: #E8D5CD;
+    font-size: 13px;
+    margin-top: 18px;
+}
+
+/* copy right */
+.bagian-copyright {
+    border-top: 1px solid #873F4D;
+    padding-top: 18px;
+    text-align: right;
+}
+
+.bagian-copyright p {
+    color: #E8D5CD;
+    font-size: 13px;
+    margin: 5px 0;
+}
+
+/* ================================= DROPDOWN ABOUT ================================= */
+.menu-about {
+    display: inline-block;
+    position: relative;
+}
+
+.menu-about button {
+    background-color: transparent;
+    color: #FAF5F0;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 12px;
+    font-family: Arial, sans-serif;
+}
+
+.menu-about button:hover {
+    color: #C69B98;
+}
+
+.isi-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 230px;
+    background-color: #FAF5F0;
+    border: 1px solid #E8D5CD;
+}
+
+.isi-dropdown a {
+    display: block;
+    color: #302126;
+    padding: 15px 20px;
+    margin: 0;
+    text-align: left;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.isi-dropdown a:hover {
+    background-color: #E8D5CD;
+    color: #542632;
+}
+
+.isi-dropdown.muncul {
+    display: block;
+}
+
+/* ================================= HALAMAN PROFIL ================================= */
+/* Kotak Tentang Kami */
+.tentang-kami {
+    width: 100%;
+    padding: 35px 45px;
+    margin: 30px auto;
+}
+
+.tentang-kami h2 {
+    color: #542632;
+    font-family: Georgia, serif;
+    font-size: 32px;
+    margin-top: 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #C69B98;
+    margin-bottom: 25px;
+}
+
+.tentang-kami h3 {
+    color: #873F4D;
+    font-family: Georgia, serif;
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+.tentang-kami ol {
+    padding-left: 25px;
+}
+
+.tentang-kami li {
+    color: #302126;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+/* GALERI SERTIFIKAT */
+.galeri-sertifikat {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.galeri-sertifikat img {
+    display: inline-block;
+    width: 30%;
+    height: 280px;
+    object-fit: contain;
+    background-color: #FAF5F0;
+    border: 1px solid #E8D5CD;
+    padding: 8px;
+    margin: 10px 1%;
+    vertical-align: middle;
+}
+
+/* ================================= HALAMAN ARTIKEL ================================= */
+.menu-artikel {
+    display: inline-block;
+    position: relative;
+}
+
+.menu-artikel button {
+    background: none;
+    border: none;
+    color: #FAF5F0;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.menu-artikel button:hover {
+    color: #C69B98;
+}
+
+.menu-artikel .isi-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #FAF5F0;
+    min-width: 180px;
+    text-align: left;
+}
+
+.menu-artikel .isi-dropdown a {
+    display: block;
+    padding: 12px 15px;
+    margin: 0;
+}
+
+.menu-artikel .isi-dropdown a:hover {
+    background-color: #E8D5CD;
+}
+
+.menu-artikel .isi-dropdown.muncul {
+    display: block;
+}
+
+/* ================================= FORM KONTAK ================================= */
+form {
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #FFFFFF;
+    border: 1px solid #E8D5CD;
+    border-radius: 8px;
+    text-align: left;
+}
+
+form h3 {
+    color: #542632;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    color: #542632;
+    font-weight: bold;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #C69B98;
+    border-radius: 5px;
+    background-color: #FAF5F0;
+    color: #302126;
+    font-family: Arial;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+form button {
+    display: block;
+    margin: 25px auto 0;
+    padding: 12px 30px;
+    background-color: #542632;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #873F4D;
+}
+
+form textarea {
+    height: 130px;
+    resize: vertical;
+}
+
+form button {
+    display: block;
+    margin: 25px auto 0;
+    padding: 12px 30px;
+    background-color: #542632;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #873F4D;
+}
+
+/* ================================= FORM BOOKING ================================= */
+form {
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #FFFFFF;
+    border: 1px solid #E8D5CD;
+    text-align: left;
+}
+
+/* Judul setiap bagian formulir */
+form h3 {
+    color: #873F4D;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+/* Tulisan keterangan formulir */
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    color: #542632;
+    font-weight: bold;
+}
+
+/* Kotak isian formulir */
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #C69B98;
+    background-color: #FAF5F0;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+/* Kotak pesan */
+form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+
+/* ================================= HALAMAN FAQ ================================= */
+
+/* Bagian utama FAQ */
+.faq-bagian {
+    width: 100%;
+    margin: 30px auto;
+    padding: 25px 0;
+    border-bottom: 1px solid #C69B98;
+    text-align: left;
+}
+
+/* Judul setiap bagian FAQ */
+.faq-bagian h3 {
+    color: #873F4D;
+    font-family: Georgia, serif;
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+/* Subjudul FAQ */
+.faq-bagian h4 {
+    color: #542632;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+/* Paragraf FAQ */
+.faq-bagian p {
+    color: #302126;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* Daftar bernomor dan bullet */
+.faq-bagian ol,
+.faq-bagian ul {
+    padding-left: 25px;
+}
+
+/* Isi daftar */
+.faq-bagian li {
+    color: #302126;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+/* Informasi pembayaran */
+.faq-catatan {
+    width: 100%;
+    padding: 20px;
+    margin-top: 25px;
+    background-color: #E8D5CD;
+    border-left: 4px solid #873F4D;
+}
+
+/* Judul informasi pembayaran */
+.faq-catatan b {
+    color: #542632;
+}
+
+/* Paragraf informasi pembayaran */
+.faq-catatan p {
+    margin-bottom: 8px;
+}
+
+/* Bagian penutup FAQ */
+.faq-penutup {
+    width: 100%;
+    padding: 30px;
+    margin: 30px auto;
+    background-color: #E8D5CD;
+    text-align: center;
+}
+
+/* Judul penutup */
+.faq-penutup h3 {
+    color: #542632;
+    font-family: Georgia, serif;
+    font-size: 26px;
+    margin-top: 0;
+}
+
+/* Tulisan penutup */
+.faq-penutup p {
+    color: #302126;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+
+/* ================================= ARTIKEL DI HOME ================================= */
+.artikel-home {
+    width: 100%;
+    padding: 35px 4% 10px;
+    background-color: #FAF5F0;
+    text-align: center;
+}
+
+.artikel-home .judul-price {
+    text-align: left;
+}
+
+.kartu-artikel {
+    display: inline-block;
+    width: 31%;
+    background-color: white;
+    border: 1px solid #E8D5CD;
+    padding: 25px;
+    margin: 15px 0.8% 25px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.kartu-artikel h3 {
+    font-family: Georgia, serif;
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.kartu-artikel h3 a {
+    color: #542632;
+    text-decoration: none;
+}
+
+.kartu-artikel h3 a:hover {
+    color: #873F4D;
+    text-decoration: underline;
+}
+
+.kartu-artikel p {
+    color: #66575A;
+    font-size: 14px;
+    line-height: 1.7;
+    min-height: 70px;
+}
+
+.read-more {
+    display: inline-block;
+    background-color: #542632;
+    color: #FAF5F0;
+    padding: 10px 18px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    background-color: #873F4D;
+}
