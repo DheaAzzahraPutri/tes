@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Hennaku.tng</title>
+    <link rel="stylesheet" href="UTS.css">
+    <link rel="icon" type="image/x-icon" href="Images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<!-- HEADER -->
+<header>
+    <div class="identitas">
+        <img src="Images/logo.png" alt="Logo Hennaku">
+        <div class="nama-brand">
+            <h1>HENNAKU.TNG</h1>
+            <p>Henna Lukis Tanpa Cetakan | Est. 2019 </p>
+        </div>
+    </div>
+
+<!-- NAVIGASI -->
+    <nav class="navigasi">
+        <a href="index.html">Home</a>
+        <div class="menu-about">
+            <button onclick="tampilDropdown()">About ▾</button>
+            <div id="dropdown-about" class="isi-dropdown">
+                <a href="Profil.html">Profil</a>
+                <a href="Visi&Misi.html">Visi dan Misi</a>
+                <a href="Tujuan.html">Tujuan</a>
+                <a href="Sertifikat.html">Sertifikat</a>
+            </div>
+        </div>
+        <a href="Gallery.html">Galeri</a>
+        <div class="menu-artikel">
+            <button onclick="tampilArtikel()">Artikel ▾</button>
+            <div id="dropdown-artikel" class="isi-dropdown">
+                <a href="Artikel1.html">Artikel 1</a>
+                <a href="Artikel2.html">Artikel 2</a>
+                <a href="Artikel3.html">Artikel 3</a>
+            </div>
+        </div>
+        <a href="FAQ.html">FAQ</a>
+        <a href="Kontak.html">Kontak</a>
+        <a href="Booking.html">Booking</a>
+    </nav>
+</header>
+
+<!-- TULISAN BERJALAN / PENGUMUMAN -->
+    <div class="pengumuman">
+        <p><marquee>Selamat datang di Hennaku.tng, tempat di mana setiap desain henna freshly made for you untuk mempercantik momen spesialmu.</marquee></p>
+    </div>
+
+<!-- BAGIAN BODY DAN SIDEBAR -->
+<div class="tata-letak">
+
+    <!-- BODY / KONTEN UTAMA -->
+    <main>
+        <div class="pembukaan">
+
+            <div class="teks-pembuka">
+                <p class="label-pembuka">THE ART OF BEAUTY</p>
+
+                <h2>
+                    Beauty is in the details.
+                    <span>Elegance in every design.</span>
+                </h2>
+
+                <p class="deskripsi-pembuka">
+                    Temukan keindahan seni henna dan desain press-on nails
+                    yang dibuat dengan sentuhan kreativitas untuk
+                    melengkapi setiap momen istimewa.
+                </p>
+
+                <p class="kalimat-pendek">
+                    ✧ Made with love, designed for you.
+                </p>
+
+                <a href="Gallery.html">Jelajahi Koleksi</a>
+            </div>
+
+            <div class="gambar-pembuka">
+                <img src="Images/Henna3.webp" alt="Karya seni henna Hennaku.tng">
+            </div>
+
+        </div>
+    </main>
+
+<!-- SIDEBAR -->
+    <aside class="sidebar">
+
+<!-- JAM OPERASIONAL -->
+    <div class="jam-operasional">
+    <h3>Jam Operasional</h3>
+        <p><b>Senin – Kamis</b><span>09.00 – 18.00 WIB</span></p>
+        <p><b>Jumat – Minggu</b><span>Tutup</span></p>
+    </div>
+
+<!-- AVAILABLE BOOKING -->
+    <div class="available-booking">
+        <h3>Available Booking</h3>
+        <p>Contact us to check the available schedule.</p>
+        <a href="https://wa.me/message/HOKY4DCT42MJF1" target="_blank">
+            Check Availability
+        </a>
+    </div>
+    </aside>
+</div>
+
+<!-- PRICE LIST -->
+<div class="price-list">
+
+    <div class="judul-price">
+        <h2>Our Price List</h2>
+        <p>Choose your favorite beauty treatment.</p>
+    </div>
+
+    <div class="daftar-harga">
+    <p class="label-koleksi">WHITE, NUUDE, GOLD, ROSE PINK HENNA</p>
+        <!-- LAYANAN 1 -->
+        <div class="kartu-harga">
+            <img src="Images/WhitePlatinum.jpg" alt="Platinum Package">
+
+            <p class="kategori">WHITE HENNA</p>
+            <h3>Platinum Package</h3>
+            <p class="deskripsi-harga">Batas Lukis Max Hanya Sampai Pergelangan Tangan Saja.</p>
+
+            <div class="bagian-harga">
+                <p>Rp450.000</p>
+                <a href="Booking.html">Book</a>
+            </div>
+        </div>
+
+        <!-- LAYANAN 2 -->
+        <div class="kartu-harga">
+            <img src="Images/WhiteGlamour.jpg" alt="Platinum Package">
+
+            <p class="kategori">WHITE HENNA</p>
+            <h3>Glamour Package</h3>
+            <p class="deskripsi-harga">Batas Lukis Max 5cm Diatas Pergelangan Tangan + Full Design / Swarovski.</p>
+
+            <div class="bagian-harga">
+                <p>Rp550.000</p>
+                <a href="Booking.html">Book</a>
+            </div>
+        </div>
+
+        <!-- LAYANAN 3 -->
+        <div class="kartu-harga">
+            <img src="Images/galeri3.jpeg" alt="Platinum Package">
+
+            <p class="kategori">NUDE, GOLD, ROSE PINK HENNA</p>
+            <h3>Platinum Package</h3>
+            <p class="deskripsi-harga">Batas Lukis Max Hanya Sampai Pergelangan Tangan Saja.</p>
+
+            <div class="bagian-harga">
+                <p>Rp550.000</p>
+                <a href="Booking.html">Book</a>
+            </div>
+        </div>
+
+        <!-- LAYANAN 4 -->
+        <div class="kartu-harga">
+            <img src="Images/NudeGlamour.jpg" alt="Glamour Package">
+
+            <p class="kategori">NUDE, GOLD, ROSE PINK HENNA</p>
+            <h3>Glamour Package</h3>
+            <p class="deskripsi-harga">Batas Lukis Max 5cm Diatas Pergelangan Tangan + Full Design / Swarovski.</p>
+
+            <div class="bagian-harga">
+                <p>Rp650.000</p>
+                <a href="Booking.html">Book</a>
+            </div>
+        </div>
+
+        <!-- FASILITAS PAKET -->
+        <div class="fasilitas-paket">
+            <h3>Sudah Termasuk</h3>
+        <ul>
+            <li>Henna lukis 2 tangan manual tanpa cetakan.</li>
+            <li>FREE Glitter & Swarovski Premium.</li>
+            <li>FREE Kuku Palsu Handmade (bisa request simple/medium design).</li>
+            <li>FREE Lotion Tone Up / Pemutih.</li>
+            <li>FREE bebas request design henna.</li>
+            <li>FREE Transport PP Ciledug & sekitarnya maksimal 12 km (selebihnya dikenakan biaya tambahan).</li>
+            <li>FREE Sarung Tangan Plastik & Lem Kuku Cadangan.</li>
+        </ul>
+        </div>
+
+    <!-- GARIS PEMISAH PAKET -->
+    <div class="pembatas-paket"></div>
+    
+    <p class="label-koleksi">MAROON HENNA</p>
+        <!-- LAYANAN 5 -->
+        <div class="kartu-harga">
+            <img src="Images/MaroonPlatinum1.jpg" alt="Platinum Package">
+
+            <p class="kategori">MAROON, BROWN HENNA</p>
+            <h3>Platinum Package</h3>
+            <p class="deskripsi-harga">2 Tangan Depan.</p>
+
+            <div class="bagian-harga">
+                <p>Rp400.000</p>
+                <a href="Booking.html">Book</a>
+            </div>
+        </div>
+
+        <!-- LAYANAN 6 -->
+        <div class="kartu-harga">
+            <img src="Images/MaroonPlatinum4.jpg" alt="Platinum Package">
+
+            <p class="kategori">MAROON, BROWN HENNA</p>
+            <h3>Platinum Package</h3>
+            <p class="deskripsi-harga">2 Tangan Depan & 2 Kaki.</p>
+
+            <div class="bagian-harga">
+                <p>Rp800.000</p>
+                <a href="Booking.html">Book</a>
+            </div>
+        </div>
+
+        <!-- LAYANAN 7 -->
+        <div class="kartu-harga">
+            <img src="Images/MaroonPlatinum2.jpeg" alt="Platinum Package">
+
+            <p class="kategori">MAROON, BROWN HENNA</p>
+            <h3>Platinum Package</h3>
+            <p class="deskripsi-harga">2 Tangan Depan & 2 Telapak.</p>
+
+            <div class="bagian-harga">
+                <p>Rp800.000</p>
+                <a href="Booking.html">Book</a>
+            </div>
+        </div>
+
+        <!-- LAYANAN 8 -->
+        <div class="kartu-harga">
+            <img src="Images/HennaKaki.jpeg" alt="Platinum Package">
+
+            <p class="kategori">MAROON, BROWN HENNA</p>
+            <h3>Platinum Package</h3>
+            <p class="deskripsi-harga">2 Tangan Depan, 2 Telapak & 2 Kaki.</p>
+
+            <div class="bagian-harga">
+                <p>Rp1.200.000</p>
+                <a href="Booking.html">Book</a>
+            </div>
+        </div>
+
+        <!-- FASILITAS PAKET -->
+        <div class="fasilitas-paket">
+            <p>Paket Platinum untuk tangan Max Sebatas Pergelangan Tangan, atau max 2cm diatas pergelangan sedangkan untuk Kaki Max 3cm diatas bola mata kaki</p>
+        </div>
+
+        <!-- LAYANAN 9 -->
+        <div class="kartu-harga">
+            <img src="Images/MaroonGlamour1.jpg" alt="Glamour Package">
+
+            <p class="kategori">MAROON, BROWN HENNA</p>
+            <h3>Glamour Package</h3>
+            <p class="deskripsi-harga">2 Tangan Depan (setengah sikut) A.</p>
+
+            <div class="bagian-harga">
+                <p>Rp800.000</p>
+                <a href="Booking.html">Book</a>
+            </div>
+        </div>
+
+        <!-- LAYANAN 10 -->
+        <div class="kartu-harga">
+            <img src="Images/MaroonGlamour2.jpg" alt="Glamour Package">
+
+            <p class="kategori">MAROON, BROWN HENNA</p>
+            <h3>Glamour Package</h3>
+            <p class="deskripsi-harga">2 Tangan Depan (sampai sikut) B.</p>
+
+            <div class="bagian-harga">
+                <p>Rp1.200.000</p>
+                <a href="Booking.html">Book</a>
+            </div>
+        </div>
+
+        <!-- LAYANAN 11 -->
+        <div class="kartu-harga">
+            <img src="Images/MaroonGlamour4.jpg" alt="Glamour Package">
+
+            <p class="kategori">MAROON, BROWN HENNA</p>
+            <h3>Glamour Package</h3>
+            <p class="deskripsi-harga">2 Tangan Depan A & 2 Kaki.</p>
+
+            <div class="bagian-harga">
+                <p>Rp1.200.000</p>
+                <a href="Booking.html">Book</a>
+            </div>
+        </div>
+
+        <!-- LAYANAN 12 -->
+        <div class="kartu-harga">
+            <img src="Images/MaroonGlamour5.jpg" alt="Glamour Package">
+
+            <p class="kategori">MAROON, BROWN HENNA</p>
+            <h3>Glamour Package</h3>
+            <p class="deskripsi-harga">2 Tangan Depan B & 2 Kaki.</p>
+
+            <div class="bagian-harga">
+                <p>Rp1.600.000</p>
+                <a href="Booking.html">Book</a>
+            </div>
+        </div>
+
+        <!-- LAYANAN 13 -->
+        <div class="kartu-harga">
+            <img src="Images/MaroonGlamour6.jpg" alt="Glamour Package">
+
+            <p class="kategori">MAROON, BROWN HENNA</p>
+            <h3>Glamour Package</h3>
+            <p class="deskripsi-harga">2 Tangan Depan A & 2 Telapak A.</p>
+
+            <div class="bagian-harga">
+                <p>Rp1.600.000</p>
+                <a href="Booking.html">Book</a>
+            </div>
+        </div>
+
+        <!-- LAYANAN 14 -->
+        <div class="kartu-harga">
+            <img src="Images/MaroonPlatinumKaki.jpg" alt="Glamour Package">
+
+            <p class="kategori">MAROON, BROWN HENNA</p>
+            <h3>Glamour Package</h3>
+            <p class="deskripsi-harga">2 Tangan Depan B & 2 Telapak B.</p>
+
+            <div class="bagian-harga">
+                <p>Rp2.400.000</p>
+                <a href="Booking.html">Book</a>
+            </div>
+        </div>
+
+        <!-- LAYANAN 15 -->
+        <div class="kartu-harga">
+            <img src="Images/MaroonGlamour8.jpeg" alt="Glamour Package">
+
+            <p class="kategori">MAROON, BROWN HENNA</p>
+            <h3>Glamour Package</h3>
+            <p class="deskripsi-harga">2 Tangan Depan, 2 Telapak A & 2 Kaki.</p>
+
+            <div class="bagian-harga">
+                <p>Rp2.000.000</p>
+                <a href="Booking.html">Book</a>
+            </div>
+        </div>
+
+        <!-- LAYANAN 16 -->
+        <div class="kartu-harga">
+            <img src="Images/MaroonGlamour3.jpg" alt="Glamour Package">
+
+            <p class="kategori">MAROON, BROWN HENNA</p>
+            <h3>Glamour Package</h3>
+            <p class="deskripsi-harga">2 Tangan Depan, 2 Telapak B & 2 Kaki.</p>
+
+            <div class="bagian-harga">
+                <p>Rp2.800.000</p>
+                <a href="Booking.html">Book</a>
+            </div>
+        </div>
+
+        <!-- FASILITAS PAKET -->
+        <div class="fasilitas-paket">
+            <p>Paket Glamour untuk paketan glamour bridal design, design simple/medium/full sesuai dengan price diatas</p>
+        </div>
+        
+        <!-- FASILITAS PAKET -->
+        <div class="fasilitas-paket">
+            <h3>Sudah Termasuk</h3>
+                <ul>
+                    <li>Henna lukis 2 tangan manual tanpa cetakan.</li>
+                    <li>FREE Kukupalsu Handmade.</li>
+                    <li>FREE Bebas Request Design Henna.</li>
+                    <li>FREE Transport PP Ciledug & Sekitarnya Maks 12km (selebihnya akan dikenakan biaya tambahan).</li>
+                    <li>FREE Sarung Tangan Plastik & Lem Kuku Cadangan.</li>
+                </ul>
+            <br>    
+            <h3>Tambahan</h3>
+                <ul>
+                    <li>Pemakaian Inai Celup 2 Tangan/10 Jari +Rp.70.000,-.</li>
+                    <li>Pemakaian Glitter 2 Tangan +Rp. 50.000,-.</li>
+                    <li>Pemakaian Glitter&Swarovski 2 Tangan +Rp.200.000,-</li>
+                </ul>
+
+            <p>(pemasangan 2x datang & belum termasuk transport tambahan jika lebih dari 12km)</p>
+        </div>
+
+    </div>
+</div>
+
+<!-- ARTIKEL TERBARU -->
+<div class="artikel-home">
+
+    <div class="judul-price">
+        <h2>Artikel Terbaru</h2>
+        <p>Informasi dan tips seputar henna dan press-on nails.</p>
+    </div>
+
+    <div class="kartu-artikel">
+        <h3><a href="Artikel1.html">Mengenal Seni Henna dan Keunikannya</a></h3>
+        <p>Ringkasan singkat artikel 1 dalam satu atau dua kalimat.</p>
+        <a href="Artikel1.html" class="read-more">Read More</a>
+    </div>
+
+    <div class="kartu-artikel">
+        <h3><a href="Artikel2.html">Mengenal Seni Henna dan Keunikannya</a></h3>
+        <p>Ringkasan singkat artikel 2 dalam satu atau dua kalimat.</p>
+        <a href="Artikel2.html" class="read-more">Read More</a>
+    </div>
+
+    <div class="kartu-artikel">
+        <h3><a href="Artikel3.html">Inspirasi Desain Henna untuk Berbagai Acara</a></h3>
+        <p>Ringkasan singkat artikel 3 dalam satu atau dua kalimat.</p>
+        <a href="Artikel3.html" class="read-more">Read More</a>
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <div class="isi-footer">
+
+        <!-- INFORMASI BRAND -->
+        <div class="informasi-footer">
+            <h3>✧ HENNAKU.TNG | Henna Art, Beauty in Every Detail.</h3>
+            <p>Beauty in Every Detail.</p>
+        </div>
+
+        <!-- LOGO MEDIA SOSIAL DAN LOKASI -->
+        <div class="tautan-footer">
+
+            <a href="https://www.instagram.com/hennaku.tng/" target="_blank" title="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="https://wa.me/message/HOKY4DCT42MJF1" target="_blank" title="WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+            <a href="https://www.google.com/maps/search/?api=1&query=Gg.+Beringin+No.11+Ciledug+Tangerang" target="_blank" title="Lokasi">
+                <i class="fa-solid fa-location-dot"></i>
+            </a>
+
+            <p>Gg. Beringin No.11, Ciledug, Kota Tangerang, Banten 15151.</p>
+
+        </div>
+
+    </div>
+
+    <!-- COPYRIGHT -->
+    <div class="bagian-copyright">
+        <p>© 2026 Hennaku.tng. All Rights Reserved. | Designed by Hennaku.tng</p>
+    </div>
+</footer>
+
+<script src="UTS.js"></script>
+</body>
+</html>
